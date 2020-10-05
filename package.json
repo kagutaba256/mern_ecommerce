@@ -1,0 +1,13 @@
+{
+  "name": "mern_ecommerce",
+  "version": "1.0.0",
+  "description": "mern shopping cart app",
+  "main": "server.js",
+  "repository": "https://github.com/kagutaba256/mern_ecommerce.git",
+  "author": "Sam Little <kagutaba256@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
