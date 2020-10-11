@@ -15,9 +15,7 @@ const CartScreen = ({ match, location, history }) => {
       dispatch(addToCart(productId, qty))
     }
   }, [dispatch, productId, qty])
-  const removeFromCartHandler = (id) => {
-    console.log('remove') // TODO
-  }
+  const removeFromCartHandler = (id) => {}
   const checkoutHandler = () => {
     history.push('/login?redirect=shipping')
   }
